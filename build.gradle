@@ -1,0 +1,8 @@
+plugins {
+    id 'com.github.rising3.semver' version '0.7.1'
+}
+
+semver {
+    target="TAG"
+    changeLog="BOTH"
+}

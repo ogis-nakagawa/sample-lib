@@ -1,0 +1,39 @@
+# OSX
+.DS_Store
+
+# IDE
+.idea
+.settings
+.project
+
+# npm
+yarn.lock
+package-lock.json
+
+# jest
+coverage
+
+# dev
+src
+__tests__
+babel.config.js
+tsconfig.*
+jest.*
+prettier.config.js
+.eslintrc*
+.prettier*
+
+#gradle
+.gradle
+build.gradle
+gradle.properties
+gradle
+gradlew
+gradlew.bat
+
+#doc
+CONTRIBUTING.md
+docs
+
+#other
+.github
