@@ -4,5 +4,5 @@ plugins {
 
 semver {
     target="TAG"
-    changeLog="BOTH"
+    changeLog="GITHUB"
 }

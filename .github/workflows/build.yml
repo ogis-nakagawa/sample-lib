@@ -9,6 +9,16 @@ on:
       - '[0-9]+.[0-9]+.x'
       - alpha
       - beta
+      - feature/*
+      - fix/*
+  pull_request:
+    branches:
+      - main
+      - next
+      - next-major
+      - '[0-9]+.[0-9]+.x'
+      - alpha
+      - beta
 
 jobs:
   build:
